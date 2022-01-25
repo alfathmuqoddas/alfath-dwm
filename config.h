@@ -78,9 +78,9 @@ static const Layout layouts[] = {
 /* dmenu */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 /* If you are using the standard dmenu program, use the following. */
-static const char *dmenucmd[]    = { "rofi", "-show", "drun", "-show-icons", NULL };
+/* static const char *dmenucmd[]    = { "rofi", "-show", "drun", "-show-icons", NULL }; */
 /* If you are using the dmenu-distrotube-git program, use the following for a cooler dmenu! */
-/* static const char *dmenucmd[]    = { "dmenu_run", "-g", "10", "-l", "48", "-p", "Run: ", NULL }; */
+static const char *dmenucmd[]    = { "dmenu_run", NULL }; 
 
 #include <X11/XF86keysym.h>
 
