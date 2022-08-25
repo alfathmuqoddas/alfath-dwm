@@ -10,7 +10,7 @@ static const int vertpadbar        = 7;   /* vertical padding for statusbar */
  * Arch repos and is listed as a dependency for this build. JoyPixels is also
  * a hard dependency and makes colored fonts and emojis possible.
  */
-static const char *fonts[]     = {"JetBrainsMonoNL Nerd Font:style=Bold:size=9:antialias=true:autohint=true"};
+static const char *fonts[]     = {"Cousine Nerd Font:style=Regular:size=9:antialias=true:autohint=true"};
 static const char col_1[]  = "#282c34"; /* background color of bar */
 static const char col_2[]  = "#282c34"; /* border color unfocused windows */
 static const char col_3[]  = "#ffffff";
@@ -85,9 +85,9 @@ static const char *dmenucmd[]    = { "dmenu_run", NULL };
 #include <X11/XF86keysym.h>
 
 /* the st terminal with tabbed */
-static const char *termcmd[]     = { "lxterminal", NULL };
+/*static const char *termcmd[]     = { "lxterminal", NULL };*/
 /* An alternative way to launch st along with the fish shell */
-/* static const char *termcmd[]     = { "st", "-e fish", NULL }; */
+static const char *termcmd[]     = { "lxterminal", NULL };
 static const char *tabtermcmd[]  = { "tabbed", "-r", "2", "st", "-w", "''", NULL };
 
 static const char *upvol[]   = { "/usr/bin/pactl", "set-sink-volume", "0", "+5%",     NULL };
