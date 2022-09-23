@@ -1,4 +1,3 @@
 #! /bin/bash 
-picom &
-nitrogen --restore &
-dwmblocks &
+feh --bg-scale --randomize ~/Downloads/simple-wallpaper/* &
+dwmstatus &
