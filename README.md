@@ -1,8 +1,8 @@
-* DWM forked from dwm-distrotube
+# DWM forked from dwm-distrotube
 
 Dwm is an extremely fast, small, and dynamic window manager for X. Dwm is created by the good folks at [suckless.org](https://suckless.org).  This is my personal build of dwm.  I used a number of patches in this build to make dwm more "sensible" rather than "suckless."
 
-** Quickstart
+### Quickstart
 ```
 sudo apt install sucless-tools feh libx11-dev libxft-dev libxinerama-dev build-essential
 mkdir -p ~/Downloads
@@ -15,13 +15,13 @@ cp DWM.desktop /usr/share/xsessions/
 cp autostart.sh ~/.dwm
 ```
 
-*** Ubuntu/Debian Dependencies
+### Ubuntu/Debian Dependencies
 ``sudo apt install libx11-dev libxft-dev libxinerama-dev build-essential``
 
-*** Arch Dependencies
+### Arch Dependencies
 Just ``base-devel``
 
-*** Build
+### Build
 ``make clean install``
 
 *** Things to do after install
@@ -30,7 +30,7 @@ Just ``base-devel``
 - Install ``feh`` and ``alfath-dwmstatus``
 - Clone repo ``simple-wallpaper`` to ``~/Downloads/``
 
-** Main keybindings
+## Main keybindings
 
 | Keybinding              | Action                                                       |
 |-------------------------+--------------------------------------------------------------|
@@ -51,7 +51,7 @@ Just ``base-devel``
 | MODKEY + .              | focusmon +1 (switches focus next monitors)                   |
 | MODKEY + ,              | focusmon -1 (switches focus to prev monitors)                |
 
-** Layout controls
+## Layout controls
 
 | Keybinding             | Action                  |
 |------------------------+-------------------------|
@@ -66,7 +66,7 @@ Just ``base-devel``
 | MODKEY + m             | layout 3                |
 | MODKEY + g             | layout 4                |
 
-** Application controls
+## Application controls
 
 | Keybinding       | Action                                                                       |
 |------------------+------------------------------------------------------------------------------|
