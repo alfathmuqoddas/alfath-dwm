@@ -2,29 +2,31 @@
 
 Dwm is an extremely fast, small, and dynamic window manager for X. Dwm is created by the good folks at [suckless.org](https://suckless.org).  This is my personal build of dwm.  I used a number of patches in this build to make dwm more "sensible" rather than "suckless."
 
-### Quickstart
+## Clone my other repo to runs the dwm smoothly
+```
+echo simple-wallpaper alfath-dwm alfath-dwmstatus fonts-cool | xargs -n1 | xargs -I{} git clone https://github.com/alfathmuqoddas/{}
+```
+
+## Quickstart
 ```
 sudo apt install sucless-tools feh libx11-dev libxft-dev libxinerama-dev build-essential
-mkdir -p ~/Downloads
-cd Downloads
-git clone https://github.com/alfathmuqoddas/alfath-dwm
-gti clone https://github.com/alfathmuqoddas/alfath-dwmstatus
+cd Dowloads
 cd alfath-dwm && sudo make clean install
 cd alfath-dwmstatus && sudo make clean install
-cp DWM.desktop /usr/share/xsessions/
+cp dwm.desktop /usr/share/xsessions/
 cp autostart.sh ~/.dwm
 ```
 
-### Ubuntu/Debian Dependencies
+## Ubuntu/Debian Dependencies
 ``sudo apt install libx11-dev libxft-dev libxinerama-dev build-essential``
 
-### Arch Dependencies
-Just ``base-devel``
+## Arch Dependencies
+``base-devel``
 
-### Build
+## Build
 ``make clean install``
 
-### Things to do after install
+## Things to do after install
 - Copy DWM.desktop to ``/usr/share/xsessions/``
 - Copy ``autostart.sh`` to ``$HOME/.dwm``
 - Install ``feh`` and ``alfath-dwmstatus``
@@ -74,3 +76,6 @@ Just ``base-devel``
 | MODKEY + ALT + s | tabbed -r 2 surf -pe x '.surf/html/homepage.html'                            |
 | MODKEY + ALT + m | open [mailspring](https://github.com/Foundry376/Mailspring)                  |
 | MODKEY + ALT + f | open [pcmanfm (PaCMANFileManager)](https://wiki.archlinux.org/title/PCManFM) |
+
+## Screenshot
+![hero](./thumbnail.png)
