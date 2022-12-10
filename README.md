@@ -24,7 +24,7 @@ Just ``base-devel``
 ### Build
 ``make clean install``
 
-*** Things to do after install
+### Things to do after install
 - Copy DWM.desktop to ``/usr/share/xsessions/``
 - Copy ``autostart.sh`` to ``$HOME/.dwm``
 - Install ``feh`` and ``alfath-dwmstatus``
@@ -33,7 +33,7 @@ Just ``base-devel``
 ## Main keybindings
 
 | Keybinding              | Action                                                       |
-|-------------------------+--------------------------------------------------------------|
+|-------------------------|--------------------------------------------------------------|
 | MODKEY + RETURN         | opens terminal (alacritty but can be easily changed)         |
 | MODKEY + SHIFT + RETURN | opens run launcher (dmenu but can be changed)                |
 | MODKEY + SHIFT + c      | closes window with focus                                     |
@@ -54,7 +54,7 @@ Just ``base-devel``
 ## Layout controls
 
 | Keybinding             | Action                  |
-|------------------------+-------------------------|
+|------------------------|-------------------------|
 | MODKEY + d             | row layout              |
 | MODKEY + i             | column layout           |
 | MODKEY + TAB           | cycle layout (-1)       |
@@ -69,7 +69,7 @@ Just ``base-devel``
 ## Application controls
 
 | Keybinding       | Action                                                                       |
-|------------------+------------------------------------------------------------------------------|
+|------------------|------------------------------------------------------------------------------|
 | MODKEY + ALT + b | open Brave browser                                                           |
 | MODKEY + ALT + s | tabbed -r 2 surf -pe x '.surf/html/homepage.html'                            |
 | MODKEY + ALT + m | open [mailspring](https://github.com/Foundry376/Mailspring)                  |
