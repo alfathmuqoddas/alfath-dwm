@@ -10,6 +10,7 @@ echo simple-wallpaper alfath-dwm alfath-dwmstatus fonts-cool | xargs -n1 | xargs
 ## Quickstart
 ```
 sudo apt install sucless-tools feh libx11-dev libxft-dev libxinerama-dev build-essential
+echo simple-wallpaper alfath-dwm alfath-dwmstatus fonts-cool | xargs -n1 | xargs -I{} git clone https://github.com/alfathmuqoddas/{}
 cd Dowloads
 cd alfath-dwm && sudo make clean install
 cd alfath-dwmstatus && sudo make clean install
