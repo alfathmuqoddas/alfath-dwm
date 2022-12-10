@@ -1,8 +1,8 @@
-# DWM forked from dwm-distrotube
+* DWM forked from dwm-distrotube
 
 Dwm is an extremely fast, small, and dynamic window manager for X. Dwm is created by the good folks at [suckless.org](https://suckless.org).  This is my personal build of dwm.  I used a number of patches in this build to make dwm more "sensible" rather than "suckless."
 
-## Quickstart
+** Quickstart
 ```
 sudo apt install sucless-tools feh libx11-dev libxft-dev libxinerama-dev build-essential
 mkdir -p ~/Downloads
@@ -15,16 +15,16 @@ cp DWM.desktop /usr/share/xsessions/
 cp autostart.sh ~/.dwm
 ```
 
-### Ubuntu/Debian Dependencies
+*** Ubuntu/Debian Dependencies
 ``sudo apt install libx11-dev libxft-dev libxinerama-dev build-essential``
 
-### Arch Dependencies
+*** Arch Dependencies
 Just ``base-devel``
 
-### Build
+*** Build
 ``make clean install``
 
-### Things to do after install
+*** Things to do after install
 - Copy DWM.desktop to ``/usr/share/xsessions/``
 - Copy ``autostart.sh`` to ``$HOME/.dwm``
 - Install ``feh`` and ``alfath-dwmstatus``
