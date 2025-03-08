@@ -33,6 +33,16 @@ cp autostart.sh ~/.dwm
 - Install ``feh`` and ``alfath-dwmstatus``
 - Clone repo ``simple-wallpaper`` to ``~/Downloads/``
 
+## Patches
++ alpha (for transparency)
++ attachaside (new clients appear in the stack rather than as the master)
++ cyclelayouts (cycles through the available layouts)
++ gridmode (adding a grid layout)
++ restartsig (allows dwm to be restarted with a keybinding)
++ rotatestack (moves a window through the stack, in either direction)
++ statuspadding (horizontal and vertical padding in the status bar are now configurable options)
++ uselessgap (adding gaps when more than one window)
+
 ## Main keybindings
 
 | Keybinding              | Action                                                       |
