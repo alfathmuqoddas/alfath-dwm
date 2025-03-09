@@ -41,5 +41,8 @@ cp autostart.sh ~/.dwm
 ![capture](./capture.png)
 ![capture-dwm-arch](./capture-dwm-arch.png)
 
+## Apply patch
+`patch < patch.diff`
+
 ## Credit
 1. [Suckless DWM](https://dwm.suckless.org)
