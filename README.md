@@ -16,3 +16,6 @@ Dwm with very little patches
 1. dracula color scheme
 2. simple and lightweight
 3. highly customizeable
+
+## Screenshot
+![capture](./capture.png)
