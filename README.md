@@ -1,5 +1,5 @@
 # Alfath DWM 
-Dwm with very little patches
+My modification of Dwm with very little patches to make it more usable.
 
 ## List applied patches
 1. adjacenttage
@@ -19,3 +19,6 @@ Dwm with very little patches
 
 ## Screenshot
 ![capture](./capture.png)
+
+## Credit
+1. [Suckless DWM](https://dwm.suckless.org)
