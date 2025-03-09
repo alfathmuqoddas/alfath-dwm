@@ -1,5 +1,5 @@
 # Alfath DWM 
-Dwm with very litle patches
+Dwm with very little patches
 
 ## List applied patches
 1. adjacenttage
