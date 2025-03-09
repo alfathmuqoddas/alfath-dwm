@@ -39,6 +39,7 @@ cp autostart.sh ~/.dwm
 
 ## Screenshot
 ![capture](./capture.png)
+![capture-dwm-arch](./capture-dwm-arch.png)
 
 ## Credit
 1. [Suckless DWM](https://dwm.suckless.org)
